@@ -1,3 +1,32 @@
-.flex-container {
+header {
   display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  color: MediumAquamarine;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  padding: 10px;
+}
+
+nav {
+  display: inline-block;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+nav span {
+  padding: 20px 10px;
 }
